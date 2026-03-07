@@ -1,0 +1,18 @@
+git remote -v
+git remote show origin
+git remote add origin REPO_URL
+git remote set-url origin NEW_REPO_URL
+git remote remove origin
+git clone https://github.com/ckrchaudharikiran/Python-Programming.git my_python_codes
+git status
+git branch
+git add filename
+git add .
+git commit -m "Added new python files"
+git push origin main
+git checkout branchname
+git log --oneline -3
+git log --oneline --all --graph
+cd Desktop/gitsituation/wrong-branch/
+git cherry-pick 48c665a    this should be in reverse i.e. oldest commit to reverse should be first to cherry-pick
+git reset --hard HEAD~3     here we are reseting head to 3 commits
